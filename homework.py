@@ -76,9 +76,10 @@ class Running(Training):
 
     def get_spent_calories(self) -> float:
         t_in_m: int = 60
-        part_a = (self.coeff_calorie_1 * self.get_mean_speed() -
-                  self.coeff_calorie_2)
-        calories = part_a * self.weight / self.M_IN_KM * self.duration * t_in_m
+        calories = ((self.coeff_calorie_1 *
+                    self.get_mean_speed() - self.coeff_calorie_2) *
+                    self.weight / self.M_IN_KM *
+                    self.duration * t_in_m)
         return calories
 
 
