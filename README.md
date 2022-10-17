@@ -11,10 +11,12 @@
 
 ### Установка
 - склонировать репозиторий
-```
-git clone github.com/Vitaly1996/api-yamdb.git
+
+```sh
+git clone github.com/podlev/api_yamdb.git
 ```
 - создать и активировать виртуальное окружение для проекта
+
 ```commandline
 python -m venv venv
 source venv/scripts/activate (Windows)    
@@ -22,6 +24,7 @@ source venv/bin/activate (MacOS/Linux)
 python3 -m pip install --upgrade pip
 ```
 - установить зависимости
+
 ```commandline
 python pip install -r requirements.txt
 ```
