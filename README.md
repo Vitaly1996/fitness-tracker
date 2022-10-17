@@ -13,7 +13,7 @@
 - склонировать репозиторий
 
 ```sh
-git clone github.com/podlev/api_yamdb.git
+git clone github.com/Vitaly1996/api_yamdb.git
 ```
 - создать и активировать виртуальное окружение для проекта
 
